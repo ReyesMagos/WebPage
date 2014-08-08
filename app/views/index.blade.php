@@ -16,6 +16,7 @@
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
+
 </head>
 
 <body>
@@ -322,10 +323,40 @@
                             </ul>
                             <ul class="list-inline">
                                 <li>
-                                    <h3>Demo</h3>
+                                    <h3><strong>Demo</strong></h3>
                                     <iframe width="480" height="360" src="//www.youtube.com/embed/BCWOCU4VAdc?rel=0" frameborder="0" allowfullscreen></iframe>
                                 </li>
                             </ul>
+
+                            <div class="wrapper">
+                                <h3><strong>Imagenes</strong></h3>
+
+                                <div class="jcarousel-wrapper">
+                                    <div class="jcarousel">
+                                        <ul>
+                                                <li>
+                                                    <img  alt="" src="img/portafolio/deportealamano/deportealamano-1.png" width="266" height="453" >
+                                                </li>
+                                                <li>
+                                                     <img alt="" src="img/portafolio/deportealamano/deportealamano-2.png" width="266" height="453">
+                                                </li>
+                                                <li>
+                                                    <img alt="" src="img/portafolio/deportealamano/deportealamano-3.png" width="266" height="453">
+                                                </li>
+                                                <li>
+                                                     <img alt="" src="img/portafolio/deportealamano/deportealamano-4.png" width="266" height="453">
+                                                </li>
+                                                <li>
+                                                    <img alt="" src="img/portafolio/deportealamano/deportealamano-5.png" width="266" height="453">
+                                                </li>
+                                        </ul>
+                                    </div>
+
+                                    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                                </div>
+                            </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -358,27 +389,10 @@
                                 <li>Servicios: <strong>Aplicativo para Android y iOS</strong>
                                 </li>
                             </ul>
-                            <div class="jcarousel"> 
-                                <ul>
-                                    <li>
-                                        <img class="img-portfolio img-responsive" src="img/portafolio/inmovic/inmovic-1.png">
-                                    </li>
-                                    <li>
-                                         <img class="img-portfolio img-responsive" src="img/portafolio/inmovic/inmovic-2.png">
-                                    </li>
-                                    <li>
-                                        <img class="img-portfolio img-responsive" src="img/portafolio/inmovic/inmovic-3.png">
-                                    </li>
-                                    <li>
-                                         <img class="img-portfolio img-responsive" src="img/portafolio/inmovic/inmovic-4.png">
-                                    </li>
-                                    <li>
-                                        <img class="img-portfolio img-responsive" src="img/portafolio/inmovic/inmovic-5.png">
-                                    </li>
-                                </ul>
-                            </div>
+
 
                             <ul class="list-inline">
+
                                 <li>
                                     <img class="img-portfolio img-responsive" src="img/tiendas/appstore-soon-small.png">
                                 </li>
@@ -386,6 +400,37 @@
                                      <img class="img-portfolio img-responsive" src="img/tiendas/googleplay-soon-small.png">
                                 </li>
                             </ul>
+
+                            <div class="wrapper">
+                                <h3><strong>Imagenes</strong></h3>
+
+                                <div class="jcarousel-wrapper">
+                                    <div class="jcarousel">
+                                        <ul>
+                                                <li>
+                                                    <img  alt="" src="img/portafolio/inmovic/inmovic-1.png" width="266" height="453" >
+                                                </li>
+                                                <li>
+                                                     <img alt="" src="img/portafolio/inmovic/inmovic-2.png" width="266" height="453">
+                                                </li>
+                                                <li>
+                                                    <img alt="" src="img/portafolio/inmovic/inmovic-3.png" width="266" height="453">
+                                                </li>
+                                                <li>
+                                                     <img alt="" src="img/portafolio/inmovic/inmovic-4.png" width="266" height="453">
+                                                </li>
+                                                <li>
+                                                    <img alt="" src="img/portafolio/inmovic/inmovic-5.png" width="266" height="453">
+                                                </li>
+                                        </ul>
+                                    </div>
+
+                                    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                                </div>
+                            </div>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -394,20 +439,17 @@
         </div>
     </div>
 
+
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-    <script type="text/javascript" src="/js/jquery.jcarousel.js"></script>
+    <script src="/js/jquery.jcarousel.min.js"></script>
+    <script src="/js/jcarousel.basic.js"></script>
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-    $(function() {
-        $('.jcarousel').jcarousel();
-    });
-    </script>
 
     <script>
     $("#menu-close").click(function(e) {

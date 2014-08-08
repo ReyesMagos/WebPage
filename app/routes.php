@@ -13,7 +13,9 @@
 
 Route::controller('/', 'IndexController');
 
+
 Route::get('prueba', function()
 {
-	
+	//return View::make('hello');
+	return View::make("prueba");
 });

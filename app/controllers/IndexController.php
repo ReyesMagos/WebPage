@@ -4,7 +4,7 @@ class IndexController extends Controller {
 
 	public function getIndex(){
 
-		return View::make("prueba");
+		return View::make("index");
 
 	}
 

@@ -35,26 +35,22 @@
             <div class="jcarousel">
                 <ul>
                         <li>
-                            <img  alt="" src="img/portafolio/inmovic/inmovic-1.png">
+                            <img  alt="" src="img/portafolio/inmovic/inmovic-1.png" width="266" height="453" >
                         </li>
                         <li>
-                             <img alt="" src="img/portafolio/inmovic/inmovic-2.png">
+                             <img alt="" src="img/portafolio/inmovic/inmovic-2.png" width="266" height="453">
                         </li>
                         <li>
-                            <img alt="" src="img/portafolio/inmovic/inmovic-3.png">
+                            <img alt="" src="img/portafolio/inmovic/inmovic-3.png" width="266" height="453">
                         </li>
                         <li>
-                             <img alt="" src="img/portafolio/inmovic/inmovic-4.png">
+                             <img alt="" src="img/portafolio/inmovic/inmovic-4.png" width="266" height="453">
                         </li>
                         <li>
-                            <img alt="" src="img/portafolio/inmovic/inmovic-5.png">
+                            <img alt="" src="img/portafolio/inmovic/inmovic-5.png" width="266" height="453">
                         </li>
                 </ul>
             </div>
-
-            <p class="photo-credits">
-                Photos by <a href="http://www.mw-fotografie.de">Marc Wiegelmann</a>
-            </p>
 
             <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
             <a href="#" class="jcarousel-control-next">&rsaquo;</a>
